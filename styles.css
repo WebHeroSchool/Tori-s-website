@@ -1,35 +1,39 @@
-body {
-  font-family: Roboto;
-}
 .wrapper {
   margin: auto;
   width: 80%;
 }
+
 .header {
-  padding: 40px 0;
+  padding: 33px 0;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 125px;
 }
+
 .logo {
   width: 190px;
   height: 35px;
   background-image: url('img/logo.svg');
 }
+
 .menu {
   display: flex;
   align-items: center;
 }
+
 .menu__item {
   position: relative;
-  margin-right: 26px;
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  margin-right: 28px;
+  font: 500 18px/17px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
 }
+
 .menu__item:last-child {
   margin-right: 0;
 }
+
 .menu__item_active::after {
   position: absolute;
   display: block;
@@ -39,6 +43,7 @@ body {
   height: 3px;
   background: #0056EC;
 }
+
 .menu__item:after {
   position: absolute;
   left: 0;
@@ -50,9 +55,11 @@ body {
   opacity: 0;
   transition: opacity .5s, width .5s;
 }
+
 .menu__item:hover {
   opacity: 0.5;
 }
+
 .menu__item:hover:after {
   position: absolute;
   left: 0;
@@ -62,7 +69,43 @@ body {
   height: 3px;
   background: #0056EC;
 }
+
 .menu__item:hover:after, .menu__item_active:after {
   opacity: 1;
   width: 100%;
+}
+
+.main {
+  padding: 6% 63% 143px 0;
+  background: top right no-repeat url('img/mainimg.svg');
+  background-size: 40vw 35vw;
+}
+
+.main__title {
+  font: bold 71px/83px pt_serif, arial, helvetica, sans-serif;
+  margin: 0 0 40px 0;
+}
+
+.main__title-text_highlight {
+  background: #ECF3FF;
+}
+
+.main__subtitle {
+  font: 500 22px/26px Roboto, arial, helvetica, sans-serif;
+  margin: 0 16% 41px 0;
+}
+
+.main__button {
+  display: inline-block;
+  font: 500 18px/28px Roboto, arial, helvetica, sans-serif;
+  color: #fff;
+  background: #0056EC;
+  padding: 15px 28px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5s;
+}
+
+.main__button:hover {
+  opacity: .5;
 }
