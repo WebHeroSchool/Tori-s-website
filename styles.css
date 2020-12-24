@@ -11,9 +11,8 @@
 
 .logo {
   position: relative;
-  padding: 33px 0;
-  padding-left: 44px;
-  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  padding: 33px 0 33px 44px;
+  font: bold 25px/31px pt_serif, arial, helvetica, sans-serif;
 }
 
 .logo__circle {
@@ -103,8 +102,8 @@
 }
 
 .main__title {
-  font: bold 71px/83px pt_serif, arial, helvetica, sans-serif;
-  margin: 0 0 45px 0;
+  font: bold 71px/85px pt_serif, arial, helvetica, sans-serif;
+  margin: 0 0 38px 0;
 }
 
 .main__title-text_highlight {
