@@ -290,7 +290,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1230px) {
+@media (min-width: 1024px) and (max-width: 1165px) {
   .wrapper {
     margin: auto;
     width: 92%;
@@ -330,7 +330,46 @@
   }
 }
 
-@media (min-width: 1231px) and (max-width: 1600px) {
+@media (min-width: 1166px) and (max-width: 1355px) {
+  .wrapper {
+    margin: auto;
+    width: 80%;
+  }
+
+  .header {
+    margin-bottom: 100px;
+  }
+
+  .logo {
+    font: bold 25px/29px pt_serif, arial, helvetica, sans-serif;
+  }
+
+  .menu__item {
+    margin-right: 27px;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+
+  .main {
+    padding: 9px 59% 146px 0;
+    background-size: 43vw 35vw;
+  }
+
+  .main__title {
+    margin-bottom: 38px;
+    font: bold 54px/66px pt_serif, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle {
+    margin: 0 0 41px 0;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    font: 500 13px/16px Roboto, arial, helvetica, sans-serif;
+  }
+}
+
+@media (min-width: 1356px) and (max-width: 1600px) {
   .wrapper {
     margin: auto;
     width: 69%;
